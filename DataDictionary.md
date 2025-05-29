@@ -1,3 +1,6 @@
+# Create a Data Dictionary for your report in one DAX expression
+
+'''
 Data Dictionary = 
 VAR _columns = SELECTCOLUMNS(
     FILTER(
@@ -60,3 +63,4 @@ SWITCH(TRUE(),
 RETURN
 
 DAX_heaviness
+'''
